@@ -1,0 +1,289 @@
+{
+  "stations": [
+    {
+      "id": "portal_norte",
+      "name": "Portal Norte",
+      "latitude": 4.7596,
+      "longitude": -74.0419,
+      "demand": "high",
+      "services": [
+        "baño",
+        "tienda",
+        "wifi"
+      ]
+    },
+    {
+      "id": "toberin",
+      "name": "Toberín",
+      "latitude": 4.745,
+      "longitude": -74.043,
+      "demand": "medium",
+      "services": []
+    },
+    {
+      "id": "cardio_infantil",
+      "name": "Cardio Infantil",
+      "latitude": 4.73,
+      "longitude": -74.0438,
+      "demand": "medium",
+      "services": [
+        "baño"
+      ]
+    },
+    {
+      "id": "mazuren",
+      "name": "Mazurén",
+      "latitude": 4.721,
+      "longitude": -74.0445,
+      "demand": "medium",
+      "services": []
+    },
+    {
+      "id": "alcala",
+      "name": "Alcalá",
+      "latitude": 4.712,
+      "longitude": -74.045,
+      "demand": "low",
+      "services": []
+    },
+    {
+      "id": "calle_142",
+      "name": "Calle 142",
+      "latitude": 4.703,
+      "longitude": -74.046,
+      "demand": "medium",
+      "services": []
+    },
+    {
+      "id": "calle_127",
+      "name": "Calle 127",
+      "latitude": 4.693,
+      "longitude": -74.047,
+      "demand": "high",
+      "services": [
+        "baño"
+      ]
+    },
+    {
+      "id": "pepe_sierra",
+      "name": "Pepe Sierra",
+      "latitude": 4.683,
+      "longitude": -74.048,
+      "demand": "medium",
+      "services": []
+    },
+    {
+      "id": "calle_106",
+      "name": "Calle 106",
+      "latitude": 4.675,
+      "longitude": -74.049,
+      "demand": "medium",
+      "services": []
+    },
+    {
+      "id": "calle_100",
+      "name": "Calle 100",
+      "latitude": 4.686,
+      "longitude": -74.0505,
+      "demand": "high",
+      "services": [
+        "baño",
+        "tienda"
+      ]
+    },
+    {
+      "id": "virrey",
+      "name": "Virrey",
+      "latitude": 4.671,
+      "longitude": -74.054,
+      "demand": "medium",
+      "services": []
+    },
+    {
+      "id": "calle_85",
+      "name": "Calle 85",
+      "latitude": 4.667,
+      "longitude": -74.0555,
+      "demand": "high",
+      "services": [
+        "baño"
+      ]
+    },
+    {
+      "id": "heroes",
+      "name": "Héroes",
+      "latitude": 4.655,
+      "longitude": -74.057,
+      "demand": "high",
+      "services": [
+        "baño",
+        "tienda"
+      ]
+    },
+    {
+      "id": "calle_76",
+      "name": "Calle 76",
+      "latitude": 4.664,
+      "longitude": -74.065,
+      "demand": "high",
+      "services": []
+    },
+    {
+      "id": "calle_72",
+      "name": "Calle 72",
+      "latitude": 4.658,
+      "longitude": -74.065,
+      "demand": "high",
+      "services": [
+        "baño",
+        "tienda"
+      ]
+    },
+    {
+      "id": "flores",
+      "name": "Flores",
+      "latitude": 4.648,
+      "longitude": -74.069,
+      "demand": "low",
+      "services": []
+    },
+    {
+      "id": "calle_63",
+      "name": "Calle 63",
+      "latitude": 4.642,
+      "longitude": -74.071,
+      "demand": "high",
+      "services": [
+        "baño"
+      ]
+    },
+    {
+      "id": "av_jimenez",
+      "name": "Av. Jiménez",
+      "latitude": 4.6005,
+      "longitude": -74.074,
+      "demand": "high",
+      "services": [
+        "baño",
+        "tienda",
+        "wifi"
+      ]
+    },
+    {
+      "id": "ricaurte",
+      "name": "Ricaurte",
+      "latitude": 4.613,
+      "longitude": -74.083,
+      "demand": "high",
+      "services": [
+        "baño",
+        "tienda"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "b1",
+      "name": "B1 - Portal Norte - Ricaurte",
+      "type": "troncal",
+      "stations": [
+        "portal_norte",
+        "toberin",
+        "cardio_infantil",
+        "mazuren",
+        "alcala",
+        "calle_142",
+        "calle_127",
+        "pepe_sierra",
+        "calle_106",
+        "calle_100",
+        "virrey",
+        "calle_85",
+        "heroes",
+        "calle_76",
+        "calle_72",
+        "flores",
+        "calle_63",
+        "av_jimenez",
+        "ricaurte"
+      ],
+      "frequency": 5,
+      "schedule": {
+        "weekday": {
+          "start": "04:00",
+          "end": "23:00"
+        },
+        "weekend": {
+          "start": "05:00",
+          "end": "22:00"
+        }
+      }
+    },
+    {
+      "id": "b74",
+      "name": "B74 - Portal Norte - Calle 76 (Expreso)",
+      "type": "expreso",
+      "stations": [
+        "portal_norte",
+        "calle_142",
+        "calle_127",
+        "calle_100",
+        "heroes",
+        "calle_76"
+      ],
+      "frequency": 8,
+      "schedule": {
+        "weekday": {
+          "start": "05:00",
+          "end": "22:00"
+        },
+        "weekend": {
+          "start": "06:00",
+          "end": "21:00"
+        }
+      }
+    },
+    {
+      "id": "c15",
+      "name": "C15 - Av. Jiménez - Ricaurte",
+      "type": "troncal",
+      "stations": [
+        "av_jimenez",
+        "ricaurte"
+      ],
+      "frequency": 4,
+      "schedule": {
+        "weekday": {
+          "start": "04:30",
+          "end": "22:30"
+        },
+        "weekend": {
+          "start": "05:30",
+          "end": "21:30"
+        }
+      }
+    }
+  ],
+  "transfers": [
+    {
+      "from": "heroes",
+      "to": "calle_76",
+      "time": 4
+    },
+    {
+      "from": "calle_76",
+      "to": "heroes",
+      "time": 4
+    },
+    {
+      "from": "calle_100",
+      "to": "calle_106",
+      "time": 3
+    },
+    {
+      "from": "calle_106",
+      "to": "calle_100",
+      "time": 3
+    }
+  ]
+}
